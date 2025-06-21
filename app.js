@@ -1,5 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
+const { Parser } = require('json2csv');
+const XLSX = require('xlsx');
 
 async function autoScroll(page) {
   await page.evaluate(async () => {
@@ -78,8 +80,39 @@ async function obtenerDatosAngular() {
   console.log(`Se extrajeron ${datos.length} artículos.`);
   console.log('Archivo guardado como angular_blog.json');
 
+   const datosPlanos = datos.map(d => ({
+    titulo: d.titulo,
+    descripcion: d.descripcion,
+    autor: d.autor,
+    avatar: d.avatar,
+    fecha: d.fecha,
+    likes: d.reacciones.likes,
+    comentarios: d.reacciones.comentarios
+  }));
+
+  
+  try {
+    const parser = new Parser();
+    const csv = parser.parse(datosPlanos);
+    fs.writeFileSync('angular_blog.csv', csv, 'utf-8');
+    console.log('Archivo guardado como angular_blog.csv');
+  } catch (err) {
+    console.error('Error al generar CSV:', err);
+  }
+
+  try {
+    const ws = XLSX.utils.json_to_sheet(datosPlanos);
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, 'Artículos');
+    XLSX.writeFile(wb, 'angular_blog.xlsx');
+    console.log('Archivo guardado como angular_blog.xlsx');
+  } catch (err) {
+    console.error('Error al generar XLSX:', err);
+  }
+
   await navegador.close();
 }
+
 
 obtenerDatosAngular();
 
