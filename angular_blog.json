@@ -1,0 +1,112 @@
+[
+  {
+    "titulo": "Announcing Angular v20",
+    "descripcion": "The past couple of years have been transformative for Angular, as we’ve unleashed major advancements like reactivity with Signals and the…",
+    "autor": "Minko Gechev",
+    "avatar": "https://miro.medium.com/v2/resize:fill:40:40/1*PC5hsShK0vnUFfFVoWjMNg.jpeg",
+    "fecha": "May 28\n2.6K\n31",
+    "reacciones": {
+      "likes": 2.6,
+      "comentarios": 31
+    }
+  },
+  {
+    "titulo": "Build AI-Powered Apps With Genkit and Angular",
+    "descripcion": "There has never been a better time to start building with AI and the state-of-the-art models available to developers everywhere. Building…",
+    "autor": "Angular",
+    "avatar": "https://miro.medium.com/v2/resize:fill:40:40/1*jlg3PXZ6PYdUGy40tXybKw.gif",
+    "fecha": "Mar 17\n225\n6",
+    "reacciones": {
+      "likes": 225,
+      "comentarios": 6
+    }
+  },
+  {
+    "titulo": "Seamless data fetching with httpResource",
+    "descripcion": "Fantastic new APIs are coming to Angular. Two years ago, we proposed making Angular a reactive web framework powered by signals. Since…",
+    "autor": "Matthieu Riegler",
+    "avatar": "https://miro.medium.com/v2/resize:fill:40:40/0*AlVzEVl10P09VRZx.jpg",
+    "fecha": "Mar 7\n548\n8",
+    "reacciones": {
+      "likes": 548,
+      "comentarios": 8
+    }
+  },
+  {
+    "titulo": "Angular 19.2 Is Now Available",
+    "descripcion": "And we’re back with Angular’s latest minor release, version 19.2, bringing new APIs and experimental features to empower developers on…",
+    "autor": "Angular",
+    "avatar": "https://miro.medium.com/v2/resize:fill:40:40/1*jlg3PXZ6PYdUGy40tXybKw.gif",
+    "fecha": "Mar 5\n584\n12",
+    "reacciones": {
+      "likes": 584,
+      "comentarios": 12
+    }
+  },
+  {
+    "titulo": "Micro Frontends with Angular and Native Federation",
+    "descripcion": "Enterprise-scale software systems are often implemented by several cross-functional teams. To enable such teams to provide new features…",
+    "autor": "Manfred Steyer",
+    "avatar": "https://miro.medium.com/v2/resize:fill:40:40/0*ie_F70F4bb0alhdm",
+    "fecha": "Feb 10\n659\n11",
+    "reacciones": {
+      "likes": 659,
+      "comentarios": 11
+    }
+  },
+  {
+    "titulo": "Angular 2025 Strategy",
+    "descripcion": "For the past two and a half years, we’ve been laser focused on improving developer experience and performance for all Angular developers…",
+    "autor": "Minko Gechev",
+    "avatar": "https://miro.medium.com/v2/resize:fill:40:40/1*PC5hsShK0vnUFfFVoWjMNg.jpeg",
+    "fecha": "Jan 13\n1.4K\n26",
+    "reacciones": {
+      "likes": 1.4,
+      "comentarios": 26
+    }
+  },
+  {
+    "titulo": "Try Out the New Signal Input Migrations",
+    "descripcion": "Authors: Paul Gschwendtner Mark Thompson",
+    "autor": "Angular",
+    "avatar": "https://miro.medium.com/v2/resize:fill:40:40/1*jlg3PXZ6PYdUGy40tXybKw.gif",
+    "fecha": "Jan 9\n359\n3",
+    "reacciones": {
+      "likes": 359,
+      "comentarios": 3
+    }
+  },
+  {
+    "titulo": "Meet Angular v19",
+    "descripcion": "In the past two years we doubled down on our investment in developer experience and performance — in every single release we’ve been…",
+    "autor": "Minko Gechev",
+    "avatar": "https://miro.medium.com/v2/resize:fill:40:40/1*PC5hsShK0vnUFfFVoWjMNg.jpeg",
+    "fecha": "Nov 19, 2024\n3.7K\n59",
+    "reacciones": {
+      "likes": 3.7,
+      "comentarios": 59
+    }
+  },
+  {
+    "titulo": "Angular v19 Release: Join the Watch Parties!",
+    "descripcion": "The Angular v19 release is just around the corner, and developers around the world are gearing up to celebrate.",
+    "autor": "Angular",
+    "avatar": "https://miro.medium.com/v2/resize:fill:40:40/1*jlg3PXZ6PYdUGy40tXybKw.gif",
+    "fecha": "Nov 14, 2024\n266\n3",
+    "reacciones": {
+      "likes": 266,
+      "comentarios": 3
+    }
+  },
+  {
+    "titulo": "Latest updates to effect() in Angular",
+    "descripcion": "Authors: Alex Rickabaugh Mark Thompson",
+    "autor": "Angular",
+    "avatar": "https://miro.medium.com/v2/resize:fill:40:40/1*jlg3PXZ6PYdUGy40tXybKw.gif",
+    "fecha": "Oct 7, 2024\n640\n1",
+    "reacciones": {
+      "likes": 640,
+      "comentarios": 1
+    }
+  }
+]
